@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>University Demo</title>
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+  <header class="header">
+    <h1 id="mainTitle">University Demo</h1>
+    <p>Resize this responsive page!</p>
+    <div>
+      <button id="positionButton">Posicion Texto</button>
+      <button id="titleButton">Cambiar titulo</button>
+      <button id="colorButton">Cambiar color</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="columns" id="columns">
+      <article class="column">
+        <h2>London</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </article>
+
+      <article class="column">
+        <h2>Paris</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </article>
+
+      <article class="column">
+        <h2>Tokyo</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="siteFooter">
+    <h2>Footer Demo</h2>
+    <p>footer example demo!</p>
+
+    <div class="footerControls">
+      <label for="imgUrl">URL imagen (opcional):</label>
+      <input id="imgUrl" type="url" placeholder="https://..." />
+      <label for="imgFile">O seleccionar archivo local:</label>
+      <input id="imgFile" type="file" accept="image/*" />
+      <button id="addImage">Agregar imagen al footer</button>
+    </div>
+
+    <div id="footerMedia" class="footerMedia"></div>
+  </footer>
+
+  <script src="controlador.js"></script>
+</body>
+</html>
